@@ -112,11 +112,18 @@ table{
     
 }
 
-section h1{
+.idNome{
     color:#222;
-    font-size: clamp(2%, 4vw, 1.3rem);
-    padding-top: 2%;
+    font-size: clamp(2%, 4vw, 1.4rem);
+    text-transform: capitalize;
 }
+
+.idPokemon{
+    color:#888;
+    font-size: clamp(1%, 4vw, 1.2rem);
+}
+
+
 
 .pokemon_img{
     position: absolute;

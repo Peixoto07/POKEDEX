@@ -5,42 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/main.js">
+    <link rel="icon" href="/img/favicon-16x16.png">
+   
+    <script  defer src="/assets/main.js" ></script>
     <title>Pokedex</title>
 </head>
 <body>
     <main>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" 
-        alt="" class="pokemon_img">
+        <img alt="" class="pokemon_img">
 
         <section class="tela">
-            <h1>
-               25 - POKEMOM
+            <h1 class="idNome">
+               <span class="idPokemon"></span> -
+               <span class="nomePokemon"></span>
             </h1>
-            <table border="1">
+
+            <table id="tabela" border="1">
                 <tr>
                     <th>HP:</th>
-                    <td>XXX</td>
+                    <td id="hp"></td>
                 </tr>
                 <tr>
                     <th>ATAQUE:</th>
-                    <td>XXX</td>
+                    <td id="ataque">XXX</td>
                 </tr>
                 <tr>
                     <th>DEFESA:</th>
-                    <td>XXX</td>
+                    <td id="defesa">XXX</td>
                 </tr>
                 <tr>
                     <th>ATAQUE ESPECIAL:</th>
-                    <td>XXX</td>
+                    <td id="ataqueEspecial">XXX</td>
                 </tr>
                 <tr>
                     <th>DEFESA ESPECIAL:</th>
-                    <td>XXX</td>
+                    <td id="defesaEspecial">XXX</td>
                 </tr>
                 <tr>
                     <th>VELOCIDADE:</th>
-                    <td>XXX</td>
+                    <td id="velocidade">XXX</td>
                 </tr>
              </table>
         </section>
@@ -57,5 +60,6 @@
         </form>
         <img src="./img/pokedex.png" alt="Pokedex" class="pokedex">
     </main>
+    
 </body>
 </html>
